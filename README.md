@@ -1,6 +1,17 @@
 # Xamarin-Plugins
 Cross-platform Plugins for Xamarin and Xamarin.Forms
 
+This branch by Olivier Dahan try to solve 2 problems with Android and the package author does not seem to react to those issues :
+1- The plugin does not work and Android 4.x
+2- With Android player stop to work after around the 15th/20th times
+
+Plan for this fork : solve problem 2 in priority. Then solve problem 1 if possible.
+There is a proposition by a user for solving problem 1 but it seems to kill a player once playback is finished, this is not the good solution. I'll try to find something else.
+
+At this times I just forked the project, there is no difference with original. Once modification will have been pushed to Git I'll modidy this text.
+
+Of course if you have any idea or proposal to solve these problems you're welcome !
+
 ## SimpleAudioPlayer
 SimpleAudioPlayer plays audio data as a stream. This allows you to store audio data in a portable class library and play it on all supported platforms.
 
